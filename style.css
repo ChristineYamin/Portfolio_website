@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 .logo {
@@ -211,8 +214,8 @@ body {
     color: #f8fafc;
     font-size: 21px;
     margin-bottom: 15px;
+    line-height: 1.45;
 }
-
 .project-card p {
     color: #cbd5e1;
     font-size: 15px;
@@ -312,4 +315,27 @@ body {
 
 .contact-links a:hover {
     background-color: #0ea5e9;
+}
+.footer {
+    text-align: center;
+    padding: 25px 8%;
+    background-color: #020617;
+    border-top: 1px solid #1e293b;
+}
+
+.footer p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+.section:nth-child(even) {
+    background-color: #111827;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-links {
+    margin-top: auto;
 }
