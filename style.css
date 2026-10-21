@@ -927,7 +927,7 @@ a {
 /* PROJECT SCREENSHOT FIX */
 
 .project-thumbnail {
-    width: 80%;
+    width: 120%;
     height: 220px;
     object-fit: contain;
     object-position: center;
